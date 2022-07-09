@@ -529,15 +529,19 @@
 						</li>
 					</ul>
 				</div>
-			</div>
-			<div>
-				<h2>подпишитесь на рассылку</h2>
-				<form action="">
-					<label for="">
-						<input type="text" />
-					</label>
-					<button></button>
-				</form>
+				<div class="container-subscription">
+					<h2 class="form-title">подпишитесь на рассылку</h2>
+					<form class="footer-form">
+						<input type="email" name="email" autocomplete="on" placeholder="E-mail" class="footer-email-input" />
+
+						<button type="submit" class="button footer-btn-subscrib">
+							Подписаться
+							<svg class="icon-subscribe" width="24" height="24">
+								<use href="./images/icons.svg#icon-send-button"></use>
+							</svg>
+						</button>
+					</form>
+				</div>
 			</div>
 		</footer>
 		<script src="./js/modal.js"></script>
