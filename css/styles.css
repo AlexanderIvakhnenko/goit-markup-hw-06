@@ -236,7 +236,7 @@ img {
     padding-top: 200px;
     padding-bottom: 200px;
 
-    color: var(--primary-white-color);
+    /* color: var(--primary-white-color); */
     background-color: var(--secondary-bg-gray-color);
 
     left: 0px;
@@ -272,6 +272,8 @@ img {
     line-height: 1.37;
     letter-spacing: 0.06em;
     text-align: center;
+
+    color: var(--primary-white-color);
 
 }
 
@@ -1125,7 +1127,7 @@ section no-padding*/
     flex-direction: column;
 }
 
-.title-form {
+h3>.title-form {
     margin-bottom: 12px;
 
     font-weight: bold;
@@ -1236,7 +1238,7 @@ section no-padding*/
 .checkbox-policy:checked+.svg-checkbox {
     border-color: transparent;
     background-color: var(--accent-color);
-    background-image: url(../images/Vector.svg);
+    background-image: url(../images/Vector-1.svg);
     background-size: contain;
     background-origin: border-box;
 }
