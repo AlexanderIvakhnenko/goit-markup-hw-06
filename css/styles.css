@@ -1089,8 +1089,8 @@ section no-padding*/
 }
 
 .button-close {
-    width: 11px;
-    height: 11px;
+    width: 18px;
+    height: 18px;
 
 }
 
@@ -1128,6 +1128,7 @@ section no-padding*/
 }
 
 h3>.title-form {
+    margin: 0;
     margin-bottom: 12px;
 
     font-weight: bold;
@@ -1151,12 +1152,13 @@ h3>.title-form {
 .form-field {
     position: relative;
     margin-bottom: 10px;
+    padding: 0;
 
 }
 
 .svg-form {
     position: absolute;
-    top: 52%;
+    top: 50%;
     left: 12px;
     transform: translateY(-50%);
 
@@ -1189,11 +1191,14 @@ h3>.title-form {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+
+    color: #757575;
 }
 
 .input-form-order {
     display: block;
     padding-left: 42px;
+    resize: none;
 }
 
 .input-form-order:focus {
@@ -1216,6 +1221,7 @@ h3>.title-form {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    color: #757575;
 }
 
 .checkbox-policy {
