@@ -75,6 +75,7 @@ img {
 .logo {
     padding-top: 24px;
     padding-bottom: 25px;
+   
 
     color: var(--accent-color);
 
@@ -1127,8 +1128,8 @@ section no-padding*/
     flex-direction: column;
 }
 
-h3>.title-form {
-    margin: 0;
+.title-form {
+    margin-top: 0;
     margin-bottom: 12px;
 
     font-weight: bold;
@@ -1170,6 +1171,7 @@ h3>.title-form {
 .input-form-order {
     padding: 11px 12px;
     width: 100%;
+  
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 
@@ -1178,6 +1180,7 @@ h3>.title-form {
 
 .input-form-order:not(:last-child) {
     padding-left: 42px;
+    height: 40px;
 }
 
 /* Стилизация для lable */
@@ -1197,7 +1200,7 @@ h3>.title-form {
 
 .input-form-order {
     display: block;
-    padding-left: 42px;
+    /* padding-left: 42px; */
     resize: none;
 }
 
